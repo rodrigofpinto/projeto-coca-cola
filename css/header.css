@@ -40,6 +40,26 @@ header {
     font-weight: 500;
     text-decoration: none;
 
+    position: relative;
+
     cursor: pointer;
 
+}
+.nav__link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+
+    width: 60%;
+    height: 1px;
+    background: var(--red);
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s;
+}
+.nav__link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }

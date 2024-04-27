@@ -27,17 +27,35 @@
 }
 .img__1 {
     rotate: -10deg;
+    transition: all 0.4s;
     
 }
 .img__2 {
     rotate: 10deg;
+    transition: all 0.4s;
 
 }
 .img__3 {
     rotate: 15deg;
+    transition: all 0.4s;
 }
 .img__4 {
     rotate: -10deg;
+    transition: all 0.4s;
+}
+.img__1:hover {
+    rotate: +10deg;
+    
+}
+.img__2:hover {
+    rotate: -10deg;
+
+}
+.img__3:hover {
+    rotate: -15deg;
+}
+.img__4:hover {
+    rotate: +10deg;
 }
 
 
