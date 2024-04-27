@@ -1,0 +1,86 @@
+.section__left {
+    width: 40%;
+    height: 100%;
+
+    padding: 20px;
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.content {
+    height: 60%;
+}
+.content h2 {
+    font-size: 3em;
+    
+    color: #fff;
+}
+.content h1 {
+    font-size: 10em;
+
+    color: var(--red);
+
+    margin-top: -40px;
+}
+.content p{
+    color: #fff;
+    font: 1em;
+    letter-spacing: 1px;
+}
+.button__view {
+    width: 250px;
+    height: 50px;
+
+    background-color: var(--red);
+    
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.button__view a {
+    text-decoration: none;
+
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    color: #fff;
+}
+.social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    column-gap: 50px;
+    width: 100%;
+}
+.social a {
+    background: #222222;
+
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.4s ;
+}
+.social a:hover {
+    background-color: var(--red);
+    transform: translateY(-10px);
+}
+.social a img {
+    width: 20px;
+    height: auto;
+
+    color: #fff;
+    filter: invert(1);
+}
+.social a img.facebook {
+    width: 10px;
+    height: auto;
+}

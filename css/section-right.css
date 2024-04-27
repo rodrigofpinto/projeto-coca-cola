@@ -1,0 +1,43 @@
+.section__rigth {
+    overflow: hidden;
+
+    width: 60%;
+    height: 100%;
+    display: flex;
+    vertical-align: center;
+}
+.circle {
+    background: var(--red);
+    width: 80%;
+    height: 80%;
+
+    position: fixed;
+    bottom: 0;
+    right: -40%;
+    z-index: -1;
+
+    border-radius: 1000px 1000px 0 0;
+}
+.section__rigth img {
+    width: 40%;
+    height: 90%;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+.img__1 {
+    rotate: -10deg;
+    
+}
+.img__2 {
+    rotate: 10deg;
+
+}
+.img__3 {
+    rotate: 15deg;
+}
+.img__4 {
+    rotate: -10deg;
+}
+
+
